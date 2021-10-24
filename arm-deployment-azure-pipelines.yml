@@ -24,7 +24,7 @@ steps:
     azureResourceManagerConnection: 'Karan - Microsoft Azure Internal Consumption(642e2122-d6d5-4922-beb1-5039927664c3)'
     subscriptionId: '642e2122-d6d5-4922-beb1-5039927664c3'
     location: 'Central India'
-    templateLocation: 'Linked artifact'
+    templateLocation: 'URL of the file'
     csmFile: 'https://raw.githubusercontent.com/cloudysingh/PipelineARM/main/ResourceGroup/deploy.json'
     csmParametersFile: 'https://raw.githubusercontent.com/cloudysingh/PipelineARM/main/ResourceGroup/Parameters/parameters.json'
     deploymentMode: 'Incremental'
